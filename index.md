@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -79,8 +78,4 @@
 			</center>
 			Back to top: <a href="#top">Back to Top</a>
 
-	</section>
-	
 
-</body>
-</html>
