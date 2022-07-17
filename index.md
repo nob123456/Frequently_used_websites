@@ -1,7 +1,27 @@
 
-<html>
-<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	.alert {
+ 	 padding: 20px;
+ 	 background-color: #00FF00;
+  	color: black;
+	}
+
+	.closebtn {
+ 	 margin-left: 15px;
+ 	 color: black;
+ 	 font-weight: bold;
+ 	 float: right;
+ 	 font-size: 22px;
+  	line-height: 20px;
+  	cursor: pointer;
+  	transition: 0.3s;
+	}
+
+	.closebtn:hover {
+	  color: black;
+	}
+	</style>
 	</head>
 	<body>
 
@@ -14,7 +34,133 @@
 	<title>Useful apps and sites</title>
 
 <body>
-	
+	<style>
+	/* Styles go here. */
+	header li {
+	  list-style: none;
+	}
+	h1 {
+		background-color: red;
+		border: 5px solid blue;
+		color: orange;
+		display: red;
+		text-align: center;
+
+	}
+	h2 {
+		text-align: center
+	}
+	a:link, a:visited {
+	  text-decoration: none;
+	  background-color: black;
+	  border: 5px solid yellow;
+	  color: white;
+	  display: block;
+	  width: 200px;
+	  text-align: center;
+	  margin-bottom: 1px;
+	}
+
+	a:hover, a:active {
+	  background-color: red;
+	  color: purple;
+	}
+	body {
+		background-color: grey;
+		font-size: 150%;
+
+	}
+	.row {
+  		width: 100%;
+	}	
+
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: 5px solid black;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+		</style>
 	<h1 id="top">Useful apps and sites</h1>
 	<section>
 		<h2>Search Engines</h2>
@@ -25,20 +171,20 @@
 
 			Here is the link for google:
 
-			<a href="https://www.google.com"
+			<a href="https://www.google.com/search?q=rick+astley&rlz=1C1CHBH_enUS903US904&oq=rick+astley&aqs=chrome..69i57j46i433i512j35i39j0i433i512j0i512j69i61j69i60l2.1248j0j7&sourceid=chrome&ie=UTF-8"
 			target="blank" >Google</a>
 		<br>
 			Here is the link for bing:
-			<a href="https://www.bing.com/"
+			<a href="https://www.bing.com/search?q=rick+astley&form=QBLH&sp=-1&pq=rick+astley&sc=8-11&qs=n&sk=&cvid=58D5D12391554AE0B04679B164590A9D&ghsh=0&ghacc=0"
 			target="blank" >Bing</a>
 
 		<br>
 			Link for Duck Duck Go:
-			<a href="https://duckduckgo.com/"
+			<a href="https://duckduckgo.com/?q=rick+astley&t=hs&va=l&ia=web"
 			target="blank">DuckDuckGo</a>
 		<br>
 			Ecosia search engine:
-			<a href="https://www.ecosia.org/"
+			<a href="https://www.ecosia.org/search?method=index&q=rick%20astley"
 			target="blank">Ecosia</a>
 		<br>
 			
@@ -48,20 +194,20 @@
 		<br>
 
 			Here is the link for facebook:
-			<a href="https://www.facebook.com/" 
+			<a href="https://www.facebook.com/RickAstley" 
 			target="blank">Facebook</a>
 		<br>
 			Here is the link for Youtube
-			<a href="https://www.youtube.com"
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 			target="blank">Youtube</a>
 		<h2>News</h2>
 			News on CNN
-			<a href="https://www.cnn.com"
+			<a href="https://www.cnn.com/2017/02/16/entertainment/rick-astley/index.html"
 			target ="blank">CNN</a>
 
 		<br>
 			News on FOX
-			<a href="foxnews.com"
+			<a href="https://www.foxnews.com/entertainment/rick-astley-rickroll-never-gonna-give-you-up"
 			target ="blank">FOX news</a>
 		<br>
 			<h2>tehm duwa du</h2>
@@ -71,11 +217,9 @@
 			<br>
 			duwa lutenint
 			<a href="C:\ALBERT\9- avatar\tehm duwa du\duwa lutenint.gif"
-			target="blank">gad hwauka</a>
+			target="blank">gad bep</a>
 
 
 			<br>
 			</center>
 			Back to top: <a href="#top">Back to Top</a>
-
-
