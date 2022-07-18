@@ -1,34 +1,5 @@
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-	.alert {
- 	 padding: 20px;
- 	 background-color: #00FF00;
-  	color: black;
-	}
-
-	.closebtn {
- 	 margin-left: 15px;
- 	 color: black;
- 	 font-weight: bold;
- 	 float: right;
- 	 font-size: 22px;
-  	line-height: 20px;
-  	cursor: pointer;
-  	transition: 0.3s;
-	}
-
-	.closebtn:hover {
-	  color: black;
-	}
-	</style>
-	</head>
-	<body>
-
-	<div class="alert">
-	  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
- 	 <strong>Success!</strong> Website has loaded!
-	</div>
+	
 
 	<meta charset="utf-8">
 	<title>Useful apps and sites</title>
